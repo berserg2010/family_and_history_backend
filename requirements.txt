@@ -1,0 +1,17 @@
+django
+pillow
+
+graphene
+graphene-django
+django-filter
+django-graphql-jwt
+django-cors-headers
+
+ipython
+django-extensions
+
+pytest
+pytest-django
+pytest-cov
+mixer
+snapshottest
