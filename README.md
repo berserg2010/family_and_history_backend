@@ -206,17 +206,3 @@ WantedBy=multi-user.target
 \# `systemctl restart nginx.service`
 
 \# `systemctl enable family_and_history_uwsgi.service`
-
-***
-
-### FRONTEND
-
-#### INSTALL
-
-`npm install -g create-react-app`
-
-\$ `create-react-app frontend`
-
-\$ `yarn add react-router-dom` or \$ `npm add react-router-dom`
-
-`npm install apollo-client apollo-cache-inmemory apollo-link-http react-apollo graphql-tag graphql --save`
