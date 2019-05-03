@@ -2,57 +2,6 @@
 
 ### BACKEND
 
-***
-
-#### SPECIFICATION
-
-#####Authorization and authentication
-
-#####Objects
-
-`Person`
-
->- Когда создается Person
->- Когда удаляется Person
->- Как связать User <-> Person
->
->#####Events
->
->`Birth`
->
->- Как связать Birth <-> Person
->- ~~При удалении Birth удалялись links~~
->- ~~При сохранении Birth, если person None, создать Person~~
-
-`Family`
-
->- 
->- 
->- 
->
->#####Events
->
->`Marriage`
-
-`DateTime`
-
->- 
-
-`GivName`
-
->-
-
-`SurName`
-
->-
-
-
-Tree Graph 
-
-Draft
-
-***
-
 #### INSTALL
 
 ##### DEBIAN
@@ -63,8 +12,6 @@ Draft
 >    work/
 >        family_and_history/
 >            backend/
->               venv/
->               requirements.txt
 >```
 
 
@@ -121,6 +68,8 @@ From _python3_:
 
 
 In `family_and_history/backend/`:
+
+\$ `git clone https://github.com/berserg2010/family_and_history_backend`
 
 \$ `virtualenv --prompt="(venv:family_and_history)" -p /usr/bin/python3 ./venv/`
 
